@@ -166,7 +166,7 @@ nav a:hover {
 	color: #fff;
 }
 
-h1 {
+.title h1 {
 	font-size: 72px;
 }
 
@@ -209,4 +209,52 @@ footer a {
 	text-align: center;
 	padding: 60px 0;
 	font-size: small;
+}
+
+/****** SERVICES STYLES ******/
+
+.services-title {
+	padding-top: 43px;
+	padding-bottom: 44px;
+	border-bottom: 1px solid black;
+}
+
+.services-title h1 {
+	font-size: 1.5em;
+	padding-top: 32px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.services-title p {
+	padding: 0 8px;
+}
+
+.services-cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 2% 0 4%;
+}
+
+.services-cards section {
+	border: 1px solid #000;
+	width: 48%;
+	padding: 2%;
+	margin: 2% 0;
+	background: #F4F3F4;
+}
+
+.services-cards p {
+	font-size: .8em;
+	line-height: 1.5;
+}
+
+.services-cards button {
+	width: 140px;
+	height: 32px;
+	background-color: #fff;
+	border-radius: 8px;
+	border: 1px solid #000;
+	margin-top: 4%;
 }
