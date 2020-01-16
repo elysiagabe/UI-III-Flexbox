@@ -172,16 +172,13 @@ h1 {
 
 /****** SECTION1 STYLES ******/
 .section1 {
-	padding: 40px 0;
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 8px;
 }
 
 .section1 section {
-	display: inline-block;
-	width: 425px;
-}
-
-.features {
-	margin-right: 20px;
+	width: 50%;
 }
 
 /****** SECTION2 STYLES ******/
