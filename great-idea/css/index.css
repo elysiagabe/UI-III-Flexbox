@@ -82,7 +82,6 @@ ul {
 
 /****** BASE LAYOUT STYLES ******/
 body {
-	background: #ECECEC;
 }
 
 .wrapper {
@@ -358,6 +357,7 @@ h2.meet-team {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 4%;
 }
 
 .team img {
@@ -398,4 +398,39 @@ h2.meet-team {
 	border-radius: 8px;
 	border: 1px solid #000;
 	margin-top: 5%;
+}
+
+.bottom-CTA {
+	left: 0;
+	background: #0181ED;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 6%;
+}
+
+.bottom-CTA p {
+	width: 100%;
+	font-size: 3em;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 4%;
+}
+
+.bottom-CTA button {
+	border: 2px solid #fff;
+	background: #0181ED;
+	color: #fff;
+	border-radius: 8px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 12px 20px;
+}
+
+.bottom-CTA button:hover {
+	color: #0181ED;
+	background: #fff;	
 }
