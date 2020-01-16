@@ -318,13 +318,13 @@ footer a {
 }
 
 .about-main h2 {
-	font-size: 2em;
+	font-size: 3em;
 }
 
 .data {
 	display: flex;
 	justify-content: space-between;
-	padding: 8% 0 4%;
+	padding: 8% 0 6%;
 	text-align: center;
 	color: #9B9B9B;
 }
@@ -339,10 +339,63 @@ footer a {
 	font-size: 1.5em;
 	font-weight: 600;
 	text-align: center;
-	padding-bottom: 4%;
 }
 
 .logos {
 	display: flex;
 	justify-content: space-evenly;
+	padding: 5% 0;
+}
+
+h2.meet-team {
+	font-size: 3em;
+	text-align: center;
+	margin-top: 6%;
+}
+
+.team {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.team img {
+	border-radius: 50%;
+	padding-bottom: 20px;
+}
+
+.team p {
+	font-size: .8em;
+}
+
+.team-card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background: #F4F3F4;
+	border: 1px solid #000;
+	width: 23%;
+	padding: 2%;
+	margin: 1%;
+}
+
+.team-card button {
+	width: 85px;
+	height: 35px;
+	background-color: #fff;
+	border-radius: 8px;
+	border: 1px solid #000;
+	margin-top: 8%;
+}
+
+.team-card button:hover {
+	width: 85px;
+	height: 35px;
+	color: #fff;
+	background-color: #000;
+	border-radius: 8px;
+	border: 1px solid #000;
+	margin-top: 5%;
 }
