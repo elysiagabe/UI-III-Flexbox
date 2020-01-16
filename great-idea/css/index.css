@@ -324,7 +324,7 @@ footer a {
 .data {
 	display: flex;
 	justify-content: space-between;
-	padding: 8% 0;
+	padding: 8% 0 4%;
 	text-align: center;
 	color: #9B9B9B;
 }
@@ -332,4 +332,17 @@ footer a {
 .stat {
 	letter-spacing: 1.5px; 
 	font-size: 80px;
+}
+
+.clients p {
+	color: #9B9B9B;
+	font-size: 1.5em;
+	font-weight: 600;
+	text-align: center;
+	padding-bottom: 4%;
+}
+
+.logos {
+	display: flex;
+	justify-content: space-evenly;
 }
