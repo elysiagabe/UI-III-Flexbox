@@ -141,6 +141,13 @@ nav a:hover {
 	}
 }
 
+/*disables hover on logo link back to homepage index.html*/
+.no-hover a:hover {
+	border-bottom: 0px none;
+	animation-name: none; 
+	animation-duration: 0s;
+}
+
 /****** TITLE BANNER STYLES ******/ 
 .banner {
 	display: flex;
