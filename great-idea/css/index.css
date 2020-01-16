@@ -81,24 +81,27 @@ body {
 header {
 	background: #0181ED;
 	width: 100%;
-	padding: 16px 265px;
+	padding: 16px;
 	position: fixed;
 }
 
 nav {
-	background: #0181ED;
+	max-width: 1024px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	margin: 0 auto;
 }
 
 nav a {
-	display: inline-block;
 	text-decoration: none;
 	color: #FFF;
 	font-size: .9em;
 	font-weight: 600;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	padding-bottom: 8px;
-	margin-right: 40px;
+	padding: 8px 0;
 }
 
 nav a:hover {
@@ -120,11 +123,6 @@ nav a:hover {
 	75% {
 		color: #45EC79;
 	}
-}
-
-nav img {
-	vertical-align: middle;
-	margin-left: 48px;
 }
 
 /****** TITLE BANNER STYLES ******/ 
