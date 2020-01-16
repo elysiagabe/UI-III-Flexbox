@@ -228,7 +228,7 @@ footer a {
 
 .banner-title {
 	padding-top: 43px;
-	padding-bottom: 44px;
+	padding-bottom: 40px;
 	border-bottom: 1px solid black;
 }
 
@@ -296,4 +296,28 @@ footer a {
 .services-more-info ul {
 	padding-top: 2.5%;
 	letter-spacing: 1px;
+}
+
+/****** ABOUT STYLE ******/
+
+
+.about-1,
+.about-2 {
+	display: flex;
+	padding-top: 40px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about-2 {
+	flex-direction: row-reverse;
+}
+
+.about-1-text,
+.about-2-text {
+	width: 48%;
+}
+
+.about-main h2 {
+	font-size: 2em;
 }
