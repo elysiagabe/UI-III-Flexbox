@@ -224,24 +224,26 @@ footer a {
 	font-size: small;
 }
 
-/****** SERVICES STYLES ******/
+/****** TITLE BANNER STYLES ******/
 
-.services-title {
+.banner-title {
 	padding-top: 43px;
 	padding-bottom: 44px;
 	border-bottom: 1px solid black;
 }
 
-.services-title h1 {
+.banner-title h1 {
 	font-size: 1.5em;
 	padding-top: 32px;
 	padding-left: 8px;
 	padding-right: 8px;
 }
 
-.services-title p {
+.banner-title p {
 	padding: 0 8px;
 }
+
+/****** SERVICES STYLES ******/
 
 .services-cards {
 	display: flex;
