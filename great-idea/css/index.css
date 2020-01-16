@@ -71,6 +71,12 @@ p {
 	line-height: 1.4;
 }
 
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+	line-height: 2;
+}
+
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
@@ -234,7 +240,7 @@ footer a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin: 2% 0 4%;
+	margin: 2% 0;
 }
 
 .services-cards section {
@@ -257,4 +263,28 @@ footer a {
 	border-radius: 8px;
 	border: 1px solid #000;
 	margin-top: 4%;
+}
+
+.services-more-info {
+	border-top: 2px solid #000;
+	padding-top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	line-height: 1.5;
+}
+
+.services-more-info-copy {
+	width: 48%;
+}
+
+.services-more-info-copy p,
+.services-more-info-copy ul {
+	font-size: .9em;
+}
+
+.services-more-info ul {
+	padding-top: 2.5%;
+	letter-spacing: 1px;
 }
